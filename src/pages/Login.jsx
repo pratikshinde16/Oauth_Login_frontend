@@ -1,11 +1,11 @@
-import React,{useState} from "react";
+import React from "react";
 import Google from "../images/google.png";
 import Facebook from "../images/facebook.png";
 import Github from "../images/github.png";
-import axios from "axios";
+// import axios from "axios";
 
 const Login = () => {
-  const [data, setData] = useState({ email: "", password: "" });
+  // const [data, setData] = useState({ email: "", password: "" });
 
 
   const google = () => {
