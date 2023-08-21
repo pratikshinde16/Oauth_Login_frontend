@@ -6,8 +6,8 @@ const LogoutBar = ({ userDetails }) => {
   const user = userDetails; // userDetails contains the user data
 
   const logout = () => {
-    // window.open("https://oauth-login-g7iy.onrender.com/auth/logout", "_self");
-    window.open("http://localhost:8080/auth/logout", "_self");
+    window.open("https://oauth-login-g7iy.onrender.com/auth/logout", "_self");
+    // window.open("http://localhost:8080/auth/logout", "_self");
   };
 
   return (
